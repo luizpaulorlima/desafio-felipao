@@ -1,20 +1,24 @@
 let nomeHeroi = "Luiz"
-let experienciaHeroi = 1001
+let experienciaHeroi = 10001
+
+let nivelDoHeroi;
 
 if (experienciaHeroi <= 1000){
-    console.log("O Herói de nome " + nomeHeroi + " está no nível " + "Ferro")
+    nivelDoHeroi = "Ferro";
 } else if(experienciaHeroi <= 2000){
-    console.log("O Herói de nome " + nomeHeroi + " está no nível " + "Bronze")
+    nivelDoHeroi = "Bronze"
 } else if(experienciaHeroi <= 5000){
-    console.log("O Herói de nome " + nomeHeroi + " está no nível " + "Prata")
+    nivelDoHeroi = "Prata"
 } else if(experienciaHeroi <= 7000){
-    console.log("O Herói de nome " + nomeHeroi + " está no nível " + "Ouro")
+    nivelDoHeroi = "Ouro"
 } else if(experienciaHeroi <= 8000){
-    console.log("O Herói de nome " + nomeHeroi + " está no nível " + "Platina")
+    nivelDoHeroi = "Platina"
 } else if(experienciaHeroi <= 9000){
-    console.log("O Herói de nome " + nomeHeroi + " está no nível " + "Ascedente")
+    nivelDoHeroi = "Ascedente"
 } else if(experienciaHeroi <= 10000){
-    console.log("O Herói de nome " + nomeHeroi + " está no nível " + "Imortal")
+    nivelDoHeroi = "Imortal"
 } else if (experienciaHeroi >= 10001){
-    console.log("O Herói de nome " + nomeHeroi + " está no nível " + "Radiante")
+    nivelDoHeroi = "Radiante"
 } 
+
+console.log("O Herói de nome " + nomeHeroi + " está no nível " + nivelDoHeroi)
