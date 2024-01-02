@@ -1,8 +1,11 @@
 let nomeHeroi = "Luiz"
-let experienciaHeroi = 10001
+let experienciaHeroi = 2001
 
 let nivelDoHeroi;
 
+calcularNivel()
+
+function calcularNivel() {
 if (experienciaHeroi <= 1000){
     nivelDoHeroi = "Ferro";
 } else if(experienciaHeroi <= 2000){
@@ -22,3 +25,4 @@ if (experienciaHeroi <= 1000){
 } 
 
 console.log("O Herói de nome " + nomeHeroi + " está no nível " + nivelDoHeroi)
+}
