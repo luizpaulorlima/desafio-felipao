@@ -20,18 +20,19 @@ class heroi {
             ataque = 'atacou';
         }
     
-        console.log(`o ${this.tipo} atacou usando ${ataque}`);
+        console.log(`o ${this.tipo} ${this.nome} atacou usando ${ataque}`);
     }
 }
 
 let heroi1 = new heroi('Mago Negro', 25, 'mago');
-heroi1.atacar();  // Saída: "o mago atacou usando magia"
+heroi1.atacar();
 
-let heroi2 = new heroi('Guerreiro de Fogo', 30, 'guerreiro');
-heroi2.atacar();  // Saída: "o guerreiro atacou usando espada"
+let heroi2 = new heroi('Guerreiro do Fogo', 30, 'guerreiro');
+heroi2.atacar();
 
 let heroi3 = new heroi('Monge Coin', 98, 'monge');
-heroi3.atacar();  // Saída: "o monge atacou usando artes marciais"
+heroi3.atacar();
 
 let heroi4 = new heroi('Naruto Ninja', 18, 'ninja');
-heroi4.atacar();  // Saída: "o Ninja atacou usando Shuriken"
+heroi4.atacar();
+
